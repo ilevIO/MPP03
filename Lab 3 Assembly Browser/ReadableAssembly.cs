@@ -45,6 +45,7 @@ namespace Lab_3_Assembly_Browser
         }
         public ReadableAssembly(Assembly assembly)
         {
+
             var types = assembly.GetTypes();
 
             this.namespaces = new List<IReadable>();
