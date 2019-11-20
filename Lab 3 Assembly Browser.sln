@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 3 Assembly Browser", "Lab 3 Assembly Browser\Lab 3 Assembly Browser.csproj", "{63F82BB4-C7DA-49A1-96C3-A8A279AA8F79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyBrowserLib", "AssemblyBrowserLib\AssemblyBrowserLib.csproj", "{E357562F-E48A-4C5A-BCDD-66B19922FB29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyBrowserTests", "AssemblyBrowserTests\AssemblyBrowserTests.csproj", "{8F538DFE-BEDC-41D3-9EDB-2AC0DC416849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{63F82BB4-C7DA-49A1-96C3-A8A279AA8F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F82BB4-C7DA-49A1-96C3-A8A279AA8F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F82BB4-C7DA-49A1-96C3-A8A279AA8F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E357562F-E48A-4C5A-BCDD-66B19922FB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E357562F-E48A-4C5A-BCDD-66B19922FB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E357562F-E48A-4C5A-BCDD-66B19922FB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E357562F-E48A-4C5A-BCDD-66B19922FB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F538DFE-BEDC-41D3-9EDB-2AC0DC416849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F538DFE-BEDC-41D3-9EDB-2AC0DC416849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F538DFE-BEDC-41D3-9EDB-2AC0DC416849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F538DFE-BEDC-41D3-9EDB-2AC0DC416849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
